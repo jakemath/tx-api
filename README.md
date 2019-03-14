@@ -10,3 +10,5 @@ where xxx contains the value of the metric for the given year. The query is made
 
     http://restapi2-env.ph2p2zpdk5.us-west-1.elasticbeanstalk.com/dataengr/<metric>/
 and the options for metric are /revenue/, /activeusers/, /newusercount/, /arpau/ (average revenue per active user).
+
+I've deactivated the virtual environment for this app on AWS to avoid incurring charges when not being used, but feel free to message me if you would like to see this app in action.
