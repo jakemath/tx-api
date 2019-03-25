@@ -1,4 +1,4 @@
-# REST-API
+# REST API
 An implementation of a REST API framework using Python Django.
 
 The program uses a model called 'transaction' which contains the fields 'id', 'user', 'transaction_date', 'sales_amount', 'join_date', and 'region' to parse the data in the 'transaction_.csv' files. The data is contained in a SQLite database courtesy of Django.
