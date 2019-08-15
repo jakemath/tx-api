@@ -3,8 +3,8 @@ from django.http import JsonResponse
 from api.models import Transaction
 
 
-# Views for yearly metrics. SQL queries reference the year portion of transaction_date and/or join_date 
-# to filter by year. 
+# Views for yearly metrics. Cursors execute aggregate queries and
+# first row is fetched into JSON data
 
 # Revenue = sum of total sales
 def Revenue(request):
@@ -150,6 +150,7 @@ def AverageRevenue(request):
 			WHERE strftime('%Y',transaction_date)='2016'""")
 	users_2016 = cursor_a4.fetchone()
 
+	# Compute average revenue per active users
 	avg_2013 = revenue_2013[0]/users_2013[0]
 	avg_2014 = revenue_2014[0]/users_2014[0]
 	avg_2015 = revenue_2015[0]/users_2015[0]
