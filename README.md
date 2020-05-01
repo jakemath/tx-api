@@ -13,4 +13,4 @@ where xxx contains the value of the metric for the given year. While running the
     
 where the options for <metric> are /revenue/, /activeusers/, /newusercount/, /arpau/ (average revenue per active user).
 
-I've deactivated the virtual environment for this app on AWS to avoid incurring charges when not being used, but feel free to message me if you would like to see this app in action.
+I've deactivated the virtual environment for this app on AWS, but feel free to message me if you would like to see this app in action.
