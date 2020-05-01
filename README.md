@@ -9,7 +9,7 @@ Views are defined for computing the following metrics: Revenue, Active User Coun
     
 where xxx contains the value of the metric for the given year. While running the server, the query is made by entering the url:
 
-    http://***localhost***.com/dataengr/<metric>/
+    http://<YourIPAddress>/dataengr/<metric>/
     
 where the options for <metric> are /revenue/, /activeusers/, /newusercount/, /arpau/ (average revenue per active user).
 
