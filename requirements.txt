@@ -1,4 +1,4 @@
-Django==2.2.10
+Django==2.2.18
 django-tastypie==0.14.2
 python-dateutil==2.7.5
 python-mimeparse==1.6.0
